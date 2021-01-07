@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    background: linear-gradient(to top left, #00FFFF, #FDE910);
+}
+
+.hotel{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F2F3F4;
+    margin: 10px;
+    border: 1px dotted #E30B5C;
+    border-radius: 5px;
+    opacity: 0.6;
+}
